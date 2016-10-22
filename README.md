@@ -9,26 +9,30 @@ Take raspberry pi (in my case model 3) and set up the snapclient.
 
 ## Setting up network
 add your network information to "/etc/wpa_supplicant/wpa_supplicant.conf"
+````
 network = {
  ssid="YourNetworkName"
  psk="YourNetworkPassword"
  key_mgmt=WPA-PSK
 }
-
+````
 For static ip:
 
 Make sure dhcpcd is active:
+````
 sudo service dhcpcd status
+````
 (otherwise enable it with:
 sudo service dhcpcd start
 sudo systemctl enable dhcpcd)
 
 add to "/etc/dhcpcd.conf":
+````
 interface eth0
 static ip_address=192.168.178.100/24
 static routers=192.168.1.1
 static domain_name_servers=192.168.1.1
-
+````
 choose a unique ip address.
 
 ## Setting ab snapclient
