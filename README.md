@@ -23,8 +23,8 @@ Make sure dhcpcd is active:
 sudo service dhcpcd status
 ````
 (otherwise enable it with:
-sudo service dhcpcd start
-sudo systemctl enable dhcpcd)
+`sudo service dhcpcd start
+sudo systemctl enable dhcpcd`)
 
 add to "/etc/dhcpcd.conf":
 ````
@@ -35,6 +35,6 @@ static domain_name_servers=192.168.1.1
 ````
 choose a unique ip address.
 
-## Setting ab snapclient
+## Setting up snapclient
 
 follow instructionn in https://github.com/badaix/snapcast/blob/master/doc/build.md#linux-native
