@@ -23,7 +23,7 @@ Make sure dhcpcd is active:
 sudo service dhcpcd status
 ````
 (otherwise enable it with:
-`sudo service dhcpcd start
+`sudo service dhcpcd start;
 sudo systemctl enable dhcpcd`)
 
 add to "/etc/dhcpcd.conf":
