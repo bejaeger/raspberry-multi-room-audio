@@ -37,3 +37,7 @@ choose a unique ip address.
 ## Setting up snapclient
 
 follow instructionn in https://github.com/badaix/snapcast/blob/master/doc/build.md#linux-native
+
+# SSH without password 
+
+http://www.schlittermann.de/doc/ssh.html
