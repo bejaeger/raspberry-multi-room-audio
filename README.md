@@ -31,6 +31,9 @@ interface wlan0
 static ip_address=192.168.178.100/24
 static routers=192.168.1.1
 static domain_name_servers=192.168.1.1
+
+timeout 5
+
 ````
 choose a unique ip address.
 
