@@ -44,3 +44,7 @@ follow instructionn in https://github.com/badaix/snapcast/blob/master/doc/build.
 # SSH without password 
 
 http://www.schlittermann.de/doc/ssh.html
+
+# References
+
+https://volumio.org/forum/multiroom-audio-output-from-volumio-with-snapcast-t3217.html
