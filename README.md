@@ -45,6 +45,11 @@ follow instructionn in https://github.com/badaix/snapcast/blob/master/doc/build.
 
 http://www.schlittermann.de/doc/ssh.html
 
+# Autostart Scripts on Raspberry Pi 3
+
+add the desired programs to 
+/home/user/config/lxsession/LXDE-pi/autostart
+
 # References
 
 https://volumio.org/forum/multiroom-audio-output-from-volumio-with-snapcast-t3217.html
