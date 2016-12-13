@@ -53,3 +53,5 @@ add the desired programs to
 # References
 
 https://volumio.org/forum/multiroom-audio-output-from-volumio-with-snapcast-t3217.html
+spotify connect:
+https://github.com/Fornoth/spotify-connect-web
